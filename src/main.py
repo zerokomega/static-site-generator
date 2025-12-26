@@ -9,8 +9,8 @@ from generate_pages_recursive import generate_pages_recursive
 
 def main():
     basepath = '/'
-    if sys.argv:
-        basepath = sys.argv[0]
+    if len(sys.argv) > 1:
+        basepath = sys.argv[1]
     
 
     source = "./static"
