@@ -1,7 +1,7 @@
 import unittest
 
 from textnode import TextNode, TextType
-from main import text_node_to_html_node, split_nodes_delimiter, text_to_textnodes
+from markdown_to_html import text_node_to_html_node, split_nodes_delimiter, text_to_textnodes
 
 
 class TestTextNode(unittest.TestCase):

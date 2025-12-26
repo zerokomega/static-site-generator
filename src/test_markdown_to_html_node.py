@@ -1,7 +1,8 @@
 import unittest
 
-from main import markdown_to_blocks, markdown_to_html_node
+
 from blocktype import BlockType, block_to_block_type
+from markdown_to_html import markdown_to_html_node
 
 class TestMarkdownToHtmlNode(unittest.TestCase):
     def test_paragraphs(self):

@@ -1,6 +1,6 @@
 import unittest
 
-from main import (
+from markdown_to_html import (
     markdown_to_blocks,
     markdown_to_html_node,
 )
